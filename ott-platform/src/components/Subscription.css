@@ -1,0 +1,59 @@
+
+.background6 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZIBmrP3Mb_g6wV9lQvBt-Kd56w92-qLUm0g&s');
+    background-color: #f8f9fa; 
+    background-size: cover;
+    background-position: center;
+    height: 91vh;
+    width: 100%;
+    display: flex;
+    padding: 100px;
+    border-radius: 8px;
+}
+
+
+.custom-card {
+    margin-bottom: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.custom-card:hover {
+    transform: scale(1.05);
+}
+
+.card-body1 {
+    text-align: center;
+
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.btn-primary.btn-danger {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.2s;
+}
+
+.btn-primary.btn-danger:hover{
+    background-color: #0056b3;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+.card-body2 {
+    text-align: center;
+    background-color: #e5e4e2;
+
+}
+.card-body3 {
+    text-align: center;
+    background-color: gold;
+
+}

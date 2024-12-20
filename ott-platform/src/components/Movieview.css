@@ -1,0 +1,25 @@
+.background5 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZIBmrP3Mb_g6wV9lQvBt-Kd56w92-qLUm0g&s');
+    background-color: #f8f9fa; 
+    background-size: cover;
+    background-position: center;
+    height: 91vh;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.image{
+    width: 220px;
+    height: 250px;
+    margin-left: 85px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+.star fa fa-star {
+    justify-content: center;
+
+}

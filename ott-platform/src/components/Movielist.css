@@ -1,0 +1,91 @@
+/* Subscription.css */
+
+.background6 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZIBmrP3Mb_g6wV9lQvBt-Kd56w92-qLUm0g&s');
+    background-color: #f8f9fa; 
+    background-size: cover;
+    background-position: center;
+    height: 91vh;
+    width: 100%;
+    display: flex;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    padding: 20px; /* Adjusted padding for better spacing */
+    border-radius: 8px;
+}
+
+.custom-card {
+    margin-bottom: 20px; /* Adjusted margin for better spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.custom-card:hover {
+    transform: scale(1.05);
+}
+
+.card-body1 {
+    text-align: center;
+    background-color: #343a40; /* Dark background for card body */
+    color: #fff; /* White text color */
+    padding: 20px; /* Added padding for better spacing */
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px; /* Added margin for better spacing */
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #dee2e6;
+    margin-bottom: 10px; /* Added margin for spacing between image and buttons */
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.inline-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.card-body2 {
+    text-align: center;
+    background-color: #e5e4e2;
+    padding: 20px; /* Added padding for better spacing */
+    border-radius: 8px;
+}
+
+.card-body3 {
+    text-align: center;
+    background-color: gold;
+    padding: 20px; /* Added padding for better spacing */
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .col-sm-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

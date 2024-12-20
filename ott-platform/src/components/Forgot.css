@@ -1,0 +1,10 @@
+.background3 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZIBmrP3Mb_g6wV9lQvBt-Kd56w92-qLUm0g&s');
+    background-size: cover;
+    background-position: center;
+    height: 91vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
